@@ -11,6 +11,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
+                dir('./jenkins/scripts') {
+                  sh "pwd"
+                }
                 sh 'npm install' 
             }
         }

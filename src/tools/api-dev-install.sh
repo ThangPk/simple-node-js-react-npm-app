@@ -2,7 +2,7 @@
 echo '>>>>> Compiling the latest code of Administration website..........'
 cd ./src/server/templates/src
 npm install
-npm start
+npm run build
 
 echo '>>>>> Installing the requirements for servers..........'
 sudo pip3 install -r ./src/server/requirements.txt

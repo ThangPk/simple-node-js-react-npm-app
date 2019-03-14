@@ -5,6 +5,7 @@ sudo -H pip3 install -r ./src/server/requirements.txt
 
 echo '>>>>> Compiling the python server sources............'
 cd ./src/tools
+ls
 
 echo ">>>>> Compile common package"
 touch .module_common

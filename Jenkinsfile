@@ -10,8 +10,7 @@ pipeline {
     }
     stages {
         stage('Build') { 
-            steps {           
-                sh 'cd ./src/server/templates && npm install && npm start' 
+            steps {                           
                 sh './src/tools/api-dev-install.sh' 
             }
         }        

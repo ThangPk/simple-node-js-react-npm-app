@@ -6,8 +6,7 @@ pipeline {
     stages {
         stage('Build') {                
           steps {   
-              sh 'pip3 install -r ./src/server/requirements.txt'                 
-              sh 'python3 ./src/tools/build.py'                           
+              sh './src/tools/api-dev-install.sh'                               
           }
         }        
     }

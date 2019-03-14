@@ -1,7 +1,6 @@
 pipeline {
     agent {
-        docker {
-            image 'python:2-alpine'
+        docker {            
             image 'node:6-alpine' 
             args '-p 3000:3000' 
         }
@@ -10,7 +9,12 @@ pipeline {
         CI = 'true' 
     }
     stages {
-        stage('Build') {                
+        stage('Build') {       
+          agent {
+              docker {
+                  image 'python:2-alpine' 
+              }
+          }         
           steps {   
               sh 'pip install -r ./src/server/requirements.txt'   
               sh 'touch .module_common'

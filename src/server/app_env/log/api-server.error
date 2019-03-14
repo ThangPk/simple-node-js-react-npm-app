@@ -1,0 +1,1714 @@
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 22:28:06 +07)" was missed by 0:00:19.619003
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 22:50:36 +07)" was missed by 0:00:20.781660
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 22:51:06 +07)" was missed by 0:00:02.790873
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 22:52:03 +07)" was missed by 0:00:13.222597
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 22:52:33 +07)" was missed by 0:00:09.709314
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 23:04:33 +07)" was missed by 0:00:12.205618
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 23:06:03 +07)" was missed by 0:00:08.988308
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-29 23:07:03 +07)" was missed by 0:00:01.554954
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 09:38:33 +07)" was missed by 0:00:22.436120
+2018-08-30 11:59:09 [ERROR]: 'int' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 159, in search_cameras
+    if not Utils.is_null_or_empty(streaming_status) :
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 11, in is_null_or_empty
+    return obj == None or obj == '' or obj.strip() == ''
+AttributeError: 'int' object has no attribute 'strip'
+2018-08-30 11:59:31 [ERROR]: 'int' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 159, in search_cameras
+    if not Utils.is_null_or_empty(streaming_status) :
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 11, in is_null_or_empty
+    return obj == None or obj == '' or obj.strip() == ''
+AttributeError: 'int' object has no attribute 'strip'
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:50:33 +07)" was missed by 0:00:07.337541
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:51:33 +07)" was missed by 0:00:01.228859
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:52:33 +07)" was missed by 0:00:07.394402
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:53:33 +07)" was missed by 0:00:01.122473
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:54:33 +07)" was missed by 0:00:07.441536
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:55:33 +07)" was missed by 0:00:02.007044
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:56:33 +07)" was missed by 0:00:07.736825
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 12:58:33 +07)" was missed by 0:00:08.359609
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:00:33 +07)" was missed by 0:00:08.550094
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:02:33 +07)" was missed by 0:00:07.849669
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:03:33 +07)" was missed by 0:00:02.689290
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:04:33 +07)" was missed by 0:00:05.973890
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:05:33 +07)" was missed by 0:00:02.591680
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:06:33 +07)" was missed by 0:00:05.950698
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:07:33 +07)" was missed by 0:00:03.237454
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:08:33 +07)" was missed by 0:00:06.276496
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:09:33 +07)" was missed by 0:00:02.891191
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:10:33 +07)" was missed by 0:00:05.723460
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:11:33 +07)" was missed by 0:00:03.164339
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:12:33 +07)" was missed by 0:00:05.529992
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:13:33 +07)" was missed by 0:00:03.168798
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:14:33 +07)" was missed by 0:00:06.444560
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:15:33 +07)" was missed by 0:00:02.997885
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:16:33 +07)" was missed by 0:00:05.575785
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:17:33 +07)" was missed by 0:00:03.177288
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:18:33 +07)" was missed by 0:00:05.491177
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:19:33 +07)" was missed by 0:00:03.972548
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:20:33 +07)" was missed by 0:00:05.740102
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:21:03 +07)" was missed by 0:00:28.158692
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:38:33 +07)" was missed by 0:00:05.473749
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:39:33 +07)" was missed by 0:00:03.902326
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:40:33 +07)" was missed by 0:00:05.697532
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:41:33 +07)" was missed by 0:00:03.826960
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:42:33 +07)" was missed by 0:00:06.770357
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:43:33 +07)" was missed by 0:00:02.759670
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:44:33 +07)" was missed by 0:00:06.618190
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:45:33 +07)" was missed by 0:00:03.830608
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:46:33 +07)" was missed by 0:00:05.732402
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:47:33 +07)" was missed by 0:00:04.692927
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:48:33 +07)" was missed by 0:00:05.818836
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:49:33 +07)" was missed by 0:00:04.528786
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:50:33 +07)" was missed by 0:00:05.107725
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:51:33 +07)" was missed by 0:00:04.409513
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:52:33 +07)" was missed by 0:00:05.783219
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:53:33 +07)" was missed by 0:00:03.895611
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:54:33 +07)" was missed by 0:00:07.620690
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:55:33 +07)" was missed by 0:00:02.083660
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:56:33 +07)" was missed by 0:00:07.275581
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:57:33 +07)" was missed by 0:00:02.610649
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:58:33 +07)" was missed by 0:00:07.091589
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 13:59:33 +07)" was missed by 0:00:02.475146
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:00:33 +07)" was missed by 0:00:07.884872
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:01:33 +07)" was missed by 0:00:02.340672
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:02:33 +07)" was missed by 0:00:07.376261
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:03:33 +07)" was missed by 0:00:02.294567
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:04:33 +07)" was missed by 0:00:07.110499
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:05:33 +07)" was missed by 0:00:02.522882
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:06:33 +07)" was missed by 0:00:08.020772
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:07:33 +07)" was missed by 0:00:02.231184
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:08:33 +07)" was missed by 0:00:07.291161
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:09:33 +07)" was missed by 0:00:02.266572
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:10:33 +07)" was missed by 0:00:07.385635
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:11:33 +07)" was missed by 0:00:03.092133
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:12:33 +07)" was missed by 0:00:06.968786
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:13:33 +07)" was missed by 0:00:02.380184
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:14:33 +07)" was missed by 0:00:08.013861
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:15:33 +07)" was missed by 0:00:01.414664
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:16:33 +07)" was missed by 0:00:08.104082
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:17:33 +07)" was missed by 0:00:02.652917
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:18:33 +07)" was missed by 0:00:06.755441
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:19:33 +07)" was missed by 0:00:02.730714
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:20:33 +07)" was missed by 0:00:07.044500
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:21:33 +07)" was missed by 0:00:02.409263
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:22:33 +07)" was missed by 0:00:07.948983
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:23:33 +07)" was missed by 0:00:02.447826
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:24:33 +07)" was missed by 0:00:07.472253
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:25:33 +07)" was missed by 0:00:02.349884
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:26:33 +07)" was missed by 0:00:07.997164
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:27:33 +07)" was missed by 0:00:01.323402
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:28:33 +07)" was missed by 0:00:09.074069
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:30:33 +07)" was missed by 0:00:08.906013
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:31:33 +07)" was missed by 0:00:01.597137
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:32:33 +07)" was missed by 0:00:07.951761
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:33:33 +07)" was missed by 0:00:01.605982
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:34:33 +07)" was missed by 0:00:07.980093
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:35:33 +07)" was missed by 0:00:02.555065
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:36:33 +07)" was missed by 0:00:07.881593
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:37:33 +07)" was missed by 0:00:02.301804
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:38:33 +07)" was missed by 0:00:07.249358
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:39:33 +07)" was missed by 0:00:02.371285
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:40:33 +07)" was missed by 0:00:07.227494
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:41:33 +07)" was missed by 0:00:02.247677
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:42:33 +07)" was missed by 0:00:08.175221
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:43:33 +07)" was missed by 0:00:01.398107
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:44:33 +07)" was missed by 0:00:08.054917
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:45:33 +07)" was missed by 0:00:02.270188
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-30 14:46:33 +07)" was missed by 0:00:07.687874
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 09:05:01 +07)" was missed by 0:00:07.919683
+2018-08-31 11:53:00 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 11:55:59 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 11:56:06 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 11:56:39 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 11:58:10 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 11:58:19 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 11:58:22 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 11:59:23 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:00:40 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:00:50 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:04:15 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:08:51 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:13:44 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:13:49 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:14:07 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:14:22 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:14:27 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:14:32 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:14:37 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:14:44 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:15:01 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:15:54 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:16:27 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 48, in add
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 71, in add_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:17:06 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 48, in add
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 71, in add_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:17:10 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 48, in add
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 79, in add_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:17:18 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 48, in add
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 79, in add_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:17:38 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:20:21 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:20:30 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 12:20:45 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:22:36 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:25:05 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:25:18 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 12:29:45 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:50:31 +07)" was missed by 0:00:06.576441
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:51:31 +07)" was missed by 0:00:02.774996
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:52:31 +07)" was missed by 0:00:06.638231
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:53:31 +07)" was missed by 0:00:03.752252
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:54:31 +07)" was missed by 0:00:07.582293
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:55:31 +07)" was missed by 0:00:02.551874
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:56:31 +07)" was missed by 0:00:07.142735
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:57:31 +07)" was missed by 0:00:02.579452
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:58:31 +07)" was missed by 0:00:07.476823
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 12:59:31 +07)" was missed by 0:00:02.196356
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:00:31 +07)" was missed by 0:00:08.835144
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:02:31 +07)" was missed by 0:00:08.464510
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:04:31 +07)" was missed by 0:00:09.207242
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:06:31 +07)" was missed by 0:00:09.371362
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:07:31 +07)" was missed by 0:00:01.059276
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:08:31 +07)" was missed by 0:00:08.803923
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:10:31 +07)" was missed by 0:00:09.506459
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:12:31 +07)" was missed by 0:00:10.436730
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:13:01 +07)" was missed by 0:00:29.106333
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:14:31 +07)" was missed by 0:00:09.510821
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:16:31 +07)" was missed by 0:00:08.669588
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:17:31 +07)" was missed by 0:00:01.796504
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:18:31 +07)" was missed by 0:00:07.675705
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:19:31 +07)" was missed by 0:00:01.883295
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:20:31 +07)" was missed by 0:00:07.914088
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:21:31 +07)" was missed by 0:00:01.577499
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:22:31 +07)" was missed by 0:00:09.785304
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:24:31 +07)" was missed by 0:00:08.758703
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:26:31 +07)" was missed by 0:00:09.359567
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:28:31 +07)" was missed by 0:00:10.060379
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:30:31 +07)" was missed by 0:00:09.118037
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:32:31 +07)" was missed by 0:00:08.875960
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:34:31 +07)" was missed by 0:00:09.835273
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:36:31 +07)" was missed by 0:00:09.084598
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:38:31 +07)" was missed by 0:00:09.140449
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:40:31 +07)" was missed by 0:00:06.092067
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:41:31 +07)" was missed by 0:00:04.365784
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:42:31 +07)" was missed by 0:00:05.538570
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:43:31 +07)" was missed by 0:00:04.216979
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:44:31 +07)" was missed by 0:00:06.174798
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:45:31 +07)" was missed by 0:00:03.199414
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:46:31 +07)" was missed by 0:00:06.501827
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:47:31 +07)" was missed by 0:00:04.420289
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:48:31 +07)" was missed by 0:00:05.104275
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:49:31 +07)" was missed by 0:00:05.287995
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:50:31 +07)" was missed by 0:00:04.153431
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:51:31 +07)" was missed by 0:00:06.029893
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:52:31 +07)" was missed by 0:00:03.956200
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:53:31 +07)" was missed by 0:00:05.697593
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:54:31 +07)" was missed by 0:00:03.833947
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:55:31 +07)" was missed by 0:00:06.383441
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:56:31 +07)" was missed by 0:00:05.011595
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:57:31 +07)" was missed by 0:00:04.494143
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:58:31 +07)" was missed by 0:00:05.912069
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 13:59:31 +07)" was missed by 0:00:04.463532
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:00:31 +07)" was missed by 0:00:04.833676
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:01:31 +07)" was missed by 0:00:05.367445
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:02:31 +07)" was missed by 0:00:03.945067
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:03:31 +07)" was missed by 0:00:06.441575
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:04:31 +07)" was missed by 0:00:04.926321
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:05:31 +07)" was missed by 0:00:04.596908
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:06:31 +07)" was missed by 0:00:05.790248
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:07:31 +07)" was missed by 0:00:03.637109
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:08:31 +07)" was missed by 0:00:06.749123
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:09:31 +07)" was missed by 0:00:02.587817
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:10:31 +07)" was missed by 0:00:06.835049
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:11:31 +07)" was missed by 0:00:03.547778
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:12:31 +07)" was missed by 0:00:05.841307
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:13:31 +07)" was missed by 0:00:03.542926
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:14:31 +07)" was missed by 0:00:06.833383
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:15:31 +07)" was missed by 0:00:02.808764
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:16:31 +07)" was missed by 0:00:07.343741
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:17:31 +07)" was missed by 0:00:02.233227
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:18:31 +07)" was missed by 0:00:07.246696
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:19:31 +07)" was missed by 0:00:03.032939
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:20:31 +07)" was missed by 0:00:06.758219
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:21:31 +07)" was missed by 0:00:03.626748
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:22:31 +07)" was missed by 0:00:05.937658
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:23:31 +07)" was missed by 0:00:04.456510
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:24:31 +07)" was missed by 0:00:05.918964
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:25:31 +07)" was missed by 0:00:03.496262
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:26:31 +07)" was missed by 0:00:07.012142
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:27:31 +07)" was missed by 0:00:03.366630
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:28:31 +07)" was missed by 0:00:05.979830
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:29:31 +07)" was missed by 0:00:03.649452
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:30:31 +07)" was missed by 0:00:06.724599
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:31:31 +07)" was missed by 0:00:02.763565
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:32:31 +07)" was missed by 0:00:07.603073
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:33:31 +07)" was missed by 0:00:01.628110
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:34:31 +07)" was missed by 0:00:08.491517
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:35:31 +07)" was missed by 0:00:02.532382
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:36:31 +07)" was missed by 0:00:07.559310
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:37:31 +07)" was missed by 0:00:02.534346
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:38:31 +07)" was missed by 0:00:07.552707
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:39:31 +07)" was missed by 0:00:02.532850
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:40:31 +07)" was missed by 0:00:08.660279
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:42:31 +07)" was missed by 0:00:18.913202
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:44:31 +07)" was missed by 0:00:19.681945
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:46:31 +07)" was missed by 0:00:19.665874
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:48:31 +07)" was missed by 0:00:20.341638
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:50:31 +07)" was missed by 0:00:20.006901
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:52:31 +07)" was missed by 0:00:19.552307
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:54:31 +07)" was missed by 0:00:19.640610
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:56:31 +07)" was missed by 0:00:19.469214
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 14:58:31 +07)" was missed by 0:00:19.559177
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 15:00:31 +07)" was missed by 0:00:18.652042
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 15:02:31 +07)" was missed by 0:00:20.274445
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 15:04:31 +07)" was missed by 0:00:18.977058
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 15:06:31 +07)" was missed by 0:00:18.803727
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-08-31 15:08:31 +07)" was missed by 0:00:20.057269
+2018-08-31 15:33:00 [ERROR]: USER_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 50, in create_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 54, in create_user
+    raise UserException(ErrorCode.USER_EXISTED)
+utils.user_exception.UserException: USER_EXISTED
+2018-08-31 15:44:37 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 15:45:34 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 15:45:39 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 15:46:35 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 15:46:43 [ERROR]: EXISTED_NAME
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 100, in update_camera
+    raise UserException(ErrorCode.EXISTED_NAME)
+utils.user_exception.UserException: EXISTED_NAME
+2018-08-31 15:46:50 [ERROR]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 69, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 108, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-08-31 15:52:11 [ERROR]: USER_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 50, in create_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 54, in create_user
+    raise UserException(ErrorCode.USER_EXISTED)
+utils.user_exception.UserException: USER_EXISTED
+2018-08-31 15:52:14 [ERROR]: USER_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 50, in create_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 54, in create_user
+    raise UserException(ErrorCode.USER_EXISTED)
+utils.user_exception.UserException: USER_EXISTED
+2018-08-31 15:52:33 [ERROR]: USER_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 50, in create_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 54, in create_user
+    raise UserException(ErrorCode.USER_EXISTED)
+utils.user_exception.UserException: USER_EXISTED
+2018-08-31 16:05:32 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:05:32 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:05:36 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:05:37 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:05:40 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:05:43 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:05:43 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-08-31 16:06:14 [ERROR]: SELF_UPDATE_ADMIN_RIGHTS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 64, in update_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 79, in update_user
+    raise UserException(ErrorCode.SELF_UPDATE_ADMIN_RIGHTS)
+utils.user_exception.UserException: SELF_UPDATE_ADMIN_RIGHTS
+2018-08-31 16:36:28 [ERROR]: USERGROUP_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 24, in add_user_group
+    return manager.add_user_group(request_json.get('name'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 35, in add_user_group
+    raise UserException(ErrorCode.USERGROUP_EXISTED)
+utils.user_exception.UserException: USERGROUP_EXISTED
+2018-08-31 16:36:34 [ERROR]: USERGROUP_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 24, in add_user_group
+    return manager.add_user_group(request_json.get('name'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 35, in add_user_group
+    raise UserException(ErrorCode.USERGROUP_EXISTED)
+utils.user_exception.UserException: USERGROUP_EXISTED
+2018-08-31 16:37:38 [ERROR]: USERGROUP_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 24, in add_user_group
+    return manager.add_user_group(request_json.get('name'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 35, in add_user_group
+    raise UserException(ErrorCode.USERGROUP_EXISTED)
+utils.user_exception.UserException: USERGROUP_EXISTED
+2018-08-31 16:45:08 [ERROR]: USER_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 50, in create_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 54, in create_user
+    raise UserException(ErrorCode.USER_EXISTED)
+utils.user_exception.UserException: USER_EXISTED
+2018-08-31 16:47:22 [ERROR]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 97, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-08-31 16:47:25 [ERROR]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 97, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-09-05 11:46:16 [ERROR]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:00:56 +07)" was missed by 0:00:13.708909
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:02:56 +07)" was missed by 0:00:16.582704
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:03:26 +07)" was missed by 0:00:22.941687
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:04:56 +07)" was missed by 0:00:09.515443
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:05:56 +07)" was missed by 0:00:01.002888
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:07:56 +07)" was missed by 0:00:18.757609
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:09:56 +07)" was missed by 0:00:18.932808
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:11:56 +07)" was missed by 0:00:18.117924
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:13:56 +07)" was missed by 0:00:18.617268
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:15:56 +07)" was missed by 0:00:20.309188
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-05 13:17:56 +07)" was missed by 0:00:10.286835
+2018-09-05 13:38:32 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:38:32 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:38:41 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:38:55 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:38:58 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:38:58 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:00 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:00 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 11, in search_user_groups
+    manager = UserGroupManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 16, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:03 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:03 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:06 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 11, in search_user_groups
+    manager = UserGroupManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 16, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:06 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 35, in search_users
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 34, in search_users
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:09 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 35, in search_users
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 34, in search_users
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:12 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:12 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:13 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 35, in search_users
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 34, in search_users
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:13 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 11, in search_user_groups
+    manager = UserGroupManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 16, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:16 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:16 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:21 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 27, in get_servers
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:40 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:39:40 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:40:03 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 11, in search_user_groups
+    manager = UserGroupManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 16, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:40:03 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 35, in search_users
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 34, in search_users
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:40:10 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:40:10 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:46:10 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:46:15 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:46:19 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:46:19 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:53:54 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:53:59 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:53:59 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:54:02 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/user_groups.py", line 11, in search_user_groups
+    manager = UserGroupManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_group_manager.py", line 16, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:54:02 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 35, in search_users
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 34, in search_users
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:54:26 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:54:26 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:54:53 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:58:02 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 28, in import_cameras
+    return camera_manager.import_cameras(file)
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 28, in import_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:58:05 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 13:58:05 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:00:27 [ERROR]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-09-05 14:03:46 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:03:46 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:04:12 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:04:12 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:06:17 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:06:36 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:07:22 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 93, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 133, in search_cameras
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:21:58 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:21:58 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:22:30 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:22:30 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:23:18 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:23:18 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:24:29 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:24:29 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:24:38 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:24:38 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:25:14 [ERROR]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 97, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-09-05 14:25:16 [ERROR]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 97, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-09-05 14:25:27 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-05 14:25:27 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 09:17:56 +07)" was missed by 0:00:12.272748
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 09:18:26 +07)" was missed by 0:00:22.175153
+2018-09-06 09:58:25 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 11, in get_camera_streaming_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-06 09:58:25 [ERROR]: UNAUTHORIZED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 19, in get_server_status
+    system_manager = SystemManager(request.headers.get('ACCESS-TOKEN'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 22, in __init__
+    SecurityManager(self.access_token).check_admin_permission()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/security_manager.py", line 44, in check_admin_permission
+    raise UserException(ErrorCode.UNAUTHORIZED)
+utils.user_exception.UserException: UNAUTHORIZED
+2018-09-06 10:36:10 [ERROR]: EXISTED_MAC_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 48, in add
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 75, in add_camera
+    raise UserException(ErrorCode.EXISTED_MAC_ADDRESS)
+utils.user_exception.UserException: EXISTED_MAC_ADDRESS
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 12:56:45 +07)" was missed by 0:00:08.461579
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 12:58:45 +07)" was missed by 0:00:07.680491
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 12:59:45 +07)" was missed by 0:00:01.600230
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:00:45 +07)" was missed by 0:00:07.977622
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:01:45 +07)" was missed by 0:00:01.421621
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:02:45 +07)" was missed by 0:00:07.864309
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:03:45 +07)" was missed by 0:00:01.362640
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:04:45 +07)" was missed by 0:00:07.062761
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:05:45 +07)" was missed by 0:00:01.813856
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:06:45 +07)" was missed by 0:00:07.812774
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:07:45 +07)" was missed by 0:00:01.144888
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:08:45 +07)" was missed by 0:00:07.733825
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:10:45 +07)" was missed by 0:00:07.889181
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:12:45 +07)" was missed by 0:00:09.896416
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:13:15 +07)" was missed by 0:00:29.542529
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:14:45 +07)" was missed by 0:00:09.389367
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:15:15 +07)" was missed by 0:00:29.136510
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:16:45 +07)" was missed by 0:00:10.399783
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:17:15 +07)" was missed by 0:00:28.959153
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:18:45 +07)" was missed by 0:00:09.331660
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:19:15 +07)" was missed by 0:00:29.057885
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:20:45 +07)" was missed by 0:00:09.049811
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:22:45 +07)" was missed by 0:00:09.277923
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:24:45 +07)" was missed by 0:00:08.324245
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:26:45 +07)" was missed by 0:00:08.976444
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:27:15 +07)" was missed by 0:00:29.699369
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:28:45 +07)" was missed by 0:00:09.266398
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:29:45 +07)" was missed by 0:00:01.176484
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:30:45 +07)" was missed by 0:00:07.540232
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:31:45 +07)" was missed by 0:00:01.025167
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:32:45 +07)" was missed by 0:00:07.511122
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:33:45 +07)" was missed by 0:00:01.213409
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:34:45 +07)" was missed by 0:00:07.299162
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:35:45 +07)" was missed by 0:00:03.149166
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:36:45 +07)" was missed by 0:00:05.398064
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:37:45 +07)" was missed by 0:00:03.086853
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:38:45 +07)" was missed by 0:00:05.504947
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:39:45 +07)" was missed by 0:00:03.706206
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:40:45 +07)" was missed by 0:00:05.685217
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:41:45 +07)" was missed by 0:00:04.316623
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:42:45 +07)" was missed by 0:00:05.112617
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:43:45 +07)" was missed by 0:00:03.336420
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:44:45 +07)" was missed by 0:00:05.101635
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:45:45 +07)" was missed by 0:00:05.296287
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:46:45 +07)" was missed by 0:00:03.604002
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:47:45 +07)" was missed by 0:00:05.028742
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:48:45 +07)" was missed by 0:00:03.834079
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:49:45 +07)" was missed by 0:00:05.718431
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:50:45 +07)" was missed by 0:00:02.942465
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:51:45 +07)" was missed by 0:00:07.801236
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:53:45 +07)" was missed by 0:00:07.632659
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:54:45 +07)" was missed by 0:00:01.319553
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:55:45 +07)" was missed by 0:00:07.920889
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:57:45 +07)" was missed by 0:00:08.898714
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 13:59:45 +07)" was missed by 0:00:08.631589
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:01:45 +07)" was missed by 0:00:07.686653
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:02:45 +07)" was missed by 0:00:01.461859
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:03:45 +07)" was missed by 0:00:08.110668
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:05:45 +07)" was missed by 0:00:08.027742
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:07:45 +07)" was missed by 0:00:08.172609
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:08:45 +07)" was missed by 0:00:02.021122
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:09:45 +07)" was missed by 0:00:06.682273
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:10:45 +07)" was missed by 0:00:02.845659
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:11:45 +07)" was missed by 0:00:06.012231
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:12:45 +07)" was missed by 0:00:03.210269
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:13:45 +07)" was missed by 0:00:06.493172
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:14:45 +07)" was missed by 0:00:03.204564
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:15:45 +07)" was missed by 0:00:06.499749
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:16:45 +07)" was missed by 0:00:03.195350
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:17:45 +07)" was missed by 0:00:06.509404
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:18:45 +07)" was missed by 0:00:04.186959
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:20:45 +07)" was missed by 0:00:18.959151
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:22:45 +07)" was missed by 0:00:18.022855
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:24:45 +07)" was missed by 0:00:19.926930
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:26:45 +07)" was missed by 0:00:17.192827
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:28:45 +07)" was missed by 0:00:19.041773
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:30:45 +07)" was missed by 0:00:17.879749
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:32:45 +07)" was missed by 0:00:16.962195
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:34:45 +07)" was missed by 0:00:19.043726
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:36:45 +07)" was missed by 0:00:17.735514
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:38:45 +07)" was missed by 0:00:18.413761
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:40:45 +07)" was missed by 0:00:18.086799
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:42:45 +07)" was missed by 0:00:18.051447
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:44:45 +07)" was missed by 0:00:17.795729
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:46:45 +07)" was missed by 0:00:17.240837
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:48:45 +07)" was missed by 0:00:18.780825
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:50:45 +07)" was missed by 0:00:18.994338
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-06 14:51:15 +07)" was missed by 0:00:12.347937
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 08:53:45 +07)" was missed by 0:00:10.532695
+2018-09-07 10:57:29 [ERROR]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 97, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-09-07 10:57:32 [ERROR]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 97, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:36:13 +07)" was missed by 0:00:04.693975
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:37:13 +07)" was missed by 0:00:04.130427
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:38:13 +07)" was missed by 0:00:04.407469
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:39:13 +07)" was missed by 0:00:04.520095
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:40:13 +07)" was missed by 0:00:06.350219
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:41:13 +07)" was missed by 0:00:02.118645
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:42:13 +07)" was missed by 0:00:06.894386
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:43:13 +07)" was missed by 0:00:01.752750
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:44:13 +07)" was missed by 0:00:07.661013
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:45:13 +07)" was missed by 0:00:02.721290
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:46:13 +07)" was missed by 0:00:06.472938
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:47:13 +07)" was missed by 0:00:02.183817
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:48:13 +07)" was missed by 0:00:06.715011
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:49:13 +07)" was missed by 0:00:02.043781
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:50:13 +07)" was missed by 0:00:06.838295
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:51:13 +07)" was missed by 0:00:02.793740
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:52:13 +07)" was missed by 0:00:06.642856
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:53:13 +07)" was missed by 0:00:02.537777
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:54:13 +07)" was missed by 0:00:06.362521
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:55:13 +07)" was missed by 0:00:02.444787
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:56:13 +07)" was missed by 0:00:07.638510
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:58:13 +07)" was missed by 0:00:07.443458
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 13:59:13 +07)" was missed by 0:00:02.895297
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:00:13 +07)" was missed by 0:00:06.102224
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:01:13 +07)" was missed by 0:00:03.438704
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:02:13 +07)" was missed by 0:00:05.802792
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:03:13 +07)" was missed by 0:00:02.529671
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:04:13 +07)" was missed by 0:00:07.369572
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:05:13 +07)" was missed by 0:00:02.097510
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:06:13 +07)" was missed by 0:00:06.478621
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:07:13 +07)" was missed by 0:00:03.135499
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:08:13 +07)" was missed by 0:00:05.410921
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:09:13 +07)" was missed by 0:00:04.336351
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:10:13 +07)" was missed by 0:00:04.915476
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:11:13 +07)" was missed by 0:00:04.065439
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:12:13 +07)" was missed by 0:00:04.670458
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:13:13 +07)" was missed by 0:00:04.536529
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:14:13 +07)" was missed by 0:00:05.021222
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:15:13 +07)" was missed by 0:00:04.366853
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:16:13 +07)" was missed by 0:00:05.189588
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:17:13 +07)" was missed by 0:00:03.948800
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:18:13 +07)" was missed by 0:00:04.739495
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:19:13 +07)" was missed by 0:00:04.599594
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:20:13 +07)" was missed by 0:00:03.792302
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:21:13 +07)" was missed by 0:00:06.827912
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:22:13 +07)" was missed by 0:00:01.900221
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:23:13 +07)" was missed by 0:00:06.536817
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:24:13 +07)" was missed by 0:00:02.531459
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:25:13 +07)" was missed by 0:00:06.552057
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:26:13 +07)" was missed by 0:00:03.256126
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:27:13 +07)" was missed by 0:00:05.821103
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:28:13 +07)" was missed by 0:00:03.747981
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:29:13 +07)" was missed by 0:00:04.932053
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:30:13 +07)" was missed by 0:00:04.584847
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:31:13 +07)" was missed by 0:00:04.779820
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:32:13 +07)" was missed by 0:00:03.762061
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:33:13 +07)" was missed by 0:00:05.968619
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:34:13 +07)" was missed by 0:00:03.599409
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:35:13 +07)" was missed by 0:00:05.673991
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:36:13 +07)" was missed by 0:00:02.952841
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:37:13 +07)" was missed by 0:00:06.326564
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:38:13 +07)" was missed by 0:00:02.215533
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:39:13 +07)" was missed by 0:00:07.447674
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:40:13 +07)" was missed by 0:00:01.403673
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:41:13 +07)" was missed by 0:00:08.417202
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:43:13 +07)" was missed by 0:00:08.799729
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:45:13 +07)" was missed by 0:00:08.670787
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:47:13 +07)" was missed by 0:00:08.552474
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:48:13 +07)" was missed by 0:00:01.129011
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:49:13 +07)" was missed by 0:00:07.507409
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:50:13 +07)" was missed by 0:00:01.177665
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:51:13 +07)" was missed by 0:00:08.813395
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:53:13 +07)" was missed by 0:00:08.952315
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:55:13 +07)" was missed by 0:00:08.960102
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:57:13 +07)" was missed by 0:00:09.952499
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 14:59:13 +07)" was missed by 0:00:18.078585
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:01:13 +07)" was missed by 0:00:19.199876
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:03:13 +07)" was missed by 0:00:18.857556
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:05:13 +07)" was missed by 0:00:17.057063
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:07:13 +07)" was missed by 0:00:17.828888
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:09:13 +07)" was missed by 0:00:19.860234
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:11:13 +07)" was missed by 0:00:17.640063
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:13:13 +07)" was missed by 0:00:17.492965
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:15:13 +07)" was missed by 0:00:19.110413
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:17:13 +07)" was missed by 0:00:18.771273
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:19:13 +07)" was missed by 0:00:17.985027
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:21:13 +07)" was missed by 0:00:18.496296
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:23:13 +07)" was missed by 0:00:18.418803
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:25:13 +07)" was missed by 0:00:17.245439
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:27:13 +07)" was missed by 0:00:19.002051
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:29:13 +07)" was missed by 0:00:18.904081
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:31:13 +07)" was missed by 0:00:17.228469
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:33:13 +07)" was missed by 0:00:19.205578
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:35:13 +07)" was missed by 0:00:18.494168
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:37:13 +07)" was missed by 0:00:19.240363
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:39:13 +07)" was missed by 0:00:17.811157
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:41:13 +07)" was missed by 0:00:17.230634
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:43:13 +07)" was missed by 0:00:19.421542
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-07 15:43:43 +07)" was missed by 0:00:12.204638
+2018-09-07 16:08:25 [ERROR]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:03:13 +07)" was missed by 0:00:07.948753
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:04:13 +07)" was missed by 0:00:21.139767
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:32:43 +07)" was missed by 0:00:12.744200
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:34:43 +07)" was missed by 0:00:17.974566
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:36:43 +07)" was missed by 0:00:18.343644
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:38:43 +07)" was missed by 0:00:17.811063
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:40:43 +07)" was missed by 0:00:18.370749
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:42:43 +07)" was missed by 0:00:19.041217
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:44:43 +07)" was missed by 0:00:17.862856
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:46:43 +07)" was missed by 0:00:18.343961
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:48:43 +07)" was missed by 0:00:18.429588
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:50:43 +07)" was missed by 0:00:17.883459
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:52:43 +07)" was missed by 0:00:19.788733
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:54:43 +07)" was missed by 0:00:18.396484
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:56:43 +07)" was missed by 0:00:17.866713
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 08:58:43 +07)" was missed by 0:00:18.298034
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:00:43 +07)" was missed by 0:00:17.690154
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:02:43 +07)" was missed by 0:00:17.224469
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:04:43 +07)" was missed by 0:00:19.492509
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:06:43 +07)" was missed by 0:00:18.780779
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:08:43 +07)" was missed by 0:00:16.797155
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:10:43 +07)" was missed by 0:00:19.219253
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:12:43 +07)" was missed by 0:00:18.204717
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-08 09:13:13 +07)" was missed by 0:00:14.240297
+2018-09-10 14:08:18 [ERROR]: '<=' not supported between instances of 'NoneType' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 28, in get_servers
+    return system_manager.get_servers()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 76, in get_servers
+    servers = self.__get_servers()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 110, in __get_servers
+    if server.status == None or server.status == '' or server.status_updated_at <= before1mins :
+TypeError: '<=' not supported between instances of 'NoneType' and 'datetime.datetime'
+2018-09-10 14:09:07 [ERROR]: '<=' not supported between instances of 'NoneType' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/systems.py", line 28, in get_servers
+    return system_manager.get_servers()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 76, in get_servers
+    servers = self.__get_servers()
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/system_manager.py", line 110, in __get_servers
+    if server.status == None or server.status == '' or server.status_updated_at <= before1mins :
+TypeError: '<=' not supported between instances of 'NoneType' and 'datetime.datetime'
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-11 08:19:15 +07)" was missed by 0:00:12.246114
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-11 09:45:45 +07)" was missed by 0:00:20.078149
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-11 17:08:45 +07)" was missed by 0:00:26.735751
+2018-09-13 10:44:12 [ERROR]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:23:03 +07)" was missed by 0:00:02.185239
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:24:03 +07)" was missed by 0:00:09.257041
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:25:03 +07)" was missed by 0:00:10.629437
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:26:03 +07)" was missed by 0:00:10.373711
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:27:03 +07)" was missed by 0:00:09.581154
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:28:03 +07)" was missed by 0:00:10.400577
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:29:03 +07)" was missed by 0:00:10.343830
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:30:03 +07)" was missed by 0:00:09.457126
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:31:03 +07)" was missed by 0:00:09.798375
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:32:03 +07)" was missed by 0:00:09.375872
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:33:03 +07)" was missed by 0:00:10.937290
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:34:03 +07)" was missed by 0:00:09.941316
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:35:03 +07)" was missed by 0:00:09.748440
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:36:03 +07)" was missed by 0:00:10.031031
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:37:03 +07)" was missed by 0:00:09.783993
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:38:03 +07)" was missed by 0:00:10.590359
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:39:03 +07)" was missed by 0:00:10.104565
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:40:03 +07)" was missed by 0:00:10.349527
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:41:03 +07)" was missed by 0:00:09.533006
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:42:03 +07)" was missed by 0:00:10.201593
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:43:03 +07)" was missed by 0:00:10.188526
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:44:03 +07)" was missed by 0:00:10.476652
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:45:03 +07)" was missed by 0:00:10.258083
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:46:03 +07)" was missed by 0:00:09.488240
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:47:03 +07)" was missed by 0:00:10.366271
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:48:03 +07)" was missed by 0:00:09.648585
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:49:03 +07)" was missed by 0:00:09.230574
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:50:03 +07)" was missed by 0:00:08.900434
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:51:03 +07)" was missed by 0:00:11.222617
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:52:03 +07)" was missed by 0:00:10.409024
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:53:03 +07)" was missed by 0:00:10.402559
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:54:03 +07)" was missed by 0:00:10.234645
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:55:03 +07)" was missed by 0:00:10.356371
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:56:03 +07)" was missed by 0:00:09.428016
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:57:03 +07)" was missed by 0:00:09.478064
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:58:03 +07)" was missed by 0:00:09.860511
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 12:59:03 +07)" was missed by 0:00:11.028029
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:00:03 +07)" was missed by 0:00:09.473662
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:01:03 +07)" was missed by 0:00:09.692523
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:02:03 +07)" was missed by 0:00:09.701704
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:03:03 +07)" was missed by 0:00:09.713125
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:04:03 +07)" was missed by 0:00:09.696918
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:05:03 +07)" was missed by 0:00:11.301745
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:06:03 +07)" was missed by 0:00:09.487338
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:07:03 +07)" was missed by 0:00:09.300028
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:08:03 +07)" was missed by 0:00:10.328072
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:09:03 +07)" was missed by 0:00:09.647169
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:10:03 +07)" was missed by 0:00:09.547172
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:11:03 +07)" was missed by 0:00:10.406807
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:12:03 +07)" was missed by 0:00:10.238151
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:13:03 +07)" was missed by 0:00:10.407654
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:14:03 +07)" was missed by 0:00:09.480582
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:15:03 +07)" was missed by 0:00:09.670960
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:16:03 +07)" was missed by 0:00:10.337824
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:17:03 +07)" was missed by 0:00:06.473032
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:18:03 +07)" was missed by 0:00:10.598645
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:19:03 +07)" was missed by 0:00:10.389661
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:20:03 +07)" was missed by 0:00:10.295050
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:21:03 +07)" was missed by 0:00:09.563795
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:22:03 +07)" was missed by 0:00:10.172674
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:23:03 +07)" was missed by 0:00:10.312124
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:24:03 +07)" was missed by 0:00:10.472881
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:25:03 +07)" was missed by 0:00:09.812751
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:26:03 +07)" was missed by 0:00:10.391852
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:27:03 +07)" was missed by 0:00:09.600956
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:28:03 +07)" was missed by 0:00:09.389291
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:29:03 +07)" was missed by 0:00:10.367343
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:30:03 +07)" was missed by 0:00:09.282917
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:31:03 +07)" was missed by 0:00:10.500605
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:32:03 +07)" was missed by 0:00:10.214116
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:33:03 +07)" was missed by 0:00:09.459783
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:34:03 +07)" was missed by 0:00:09.478277
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:35:03 +07)" was missed by 0:00:10.814973
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:36:03 +07)" was missed by 0:00:10.172472
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:37:03 +07)" was missed by 0:00:10.029045
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:38:03 +07)" was missed by 0:00:10.333408
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:39:03 +07)" was missed by 0:00:10.327778
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:40:03 +07)" was missed by 0:00:09.557783
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:41:03 +07)" was missed by 0:00:10.394261
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:42:03 +07)" was missed by 0:00:10.369706
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:43:03 +07)" was missed by 0:00:10.346575
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:44:03 +07)" was missed by 0:00:09.591299
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:45:03 +07)" was missed by 0:00:11.287570
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:46:03 +07)" was missed by 0:00:09.511815
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:47:03 +07)" was missed by 0:00:10.357387
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:48:03 +07)" was missed by 0:00:09.533296
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:49:03 +07)" was missed by 0:00:10.378715
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:50:03 +07)" was missed by 0:00:09.356714
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:51:03 +07)" was missed by 0:00:10.440920
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:52:03 +07)" was missed by 0:00:09.470707
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:53:03 +07)" was missed by 0:00:09.983344
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:54:03 +07)" was missed by 0:00:09.592199
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:55:03 +07)" was missed by 0:00:10.350457
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:56:03 +07)" was missed by 0:00:09.592083
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:57:03 +07)" was missed by 0:00:10.569727
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:58:03 +07)" was missed by 0:00:09.993112
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 13:59:03 +07)" was missed by 0:00:09.582357
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:00:03 +07)" was missed by 0:00:09.835023
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:01:03 +07)" was missed by 0:00:09.585902
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:02:03 +07)" was missed by 0:00:11.171000
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:03:33 +07)" was missed by 0:00:08.720730
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:04:03 +07)" was missed by 0:00:10.577077
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:04:33 +07)" was missed by 0:00:10.037736
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:05:33 +07)" was missed by 0:00:08.646137
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:06:03 +07)" was missed by 0:00:10.578390
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:07:03 +07)" was missed by 0:00:10.576229
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:08:03 +07)" was missed by 0:00:10.571232
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:09:03 +07)" was missed by 0:00:11.569371
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:10:33 +07)" was missed by 0:00:09.575182
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:11:33 +07)" was missed by 0:00:10.110200
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:12:33 +07)" was missed by 0:00:09.546756
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:13:33 +07)" was missed by 0:00:09.970588
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:14:33 +07)" was missed by 0:00:10.414782
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:15:33 +07)" was missed by 0:00:09.417486
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:16:33 +07)" was missed by 0:00:10.088162
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:17:33 +07)" was missed by 0:00:10.373209
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:18:33 +07)" was missed by 0:00:09.445620
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:19:33 +07)" was missed by 0:00:10.359138
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:20:33 +07)" was missed by 0:00:09.591609
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:21:33 +07)" was missed by 0:00:10.169474
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:22:33 +07)" was missed by 0:00:11.217666
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:23:33 +07)" was missed by 0:00:09.218474
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:24:33 +07)" was missed by 0:00:09.378851
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:25:33 +07)" was missed by 0:00:10.287633
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:26:33 +07)" was missed by 0:00:10.208554
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:27:33 +07)" was missed by 0:00:09.134731
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:28:33 +07)" was missed by 0:00:09.448323
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:29:33 +07)" was missed by 0:00:10.817373
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:30:33 +07)" was missed by 0:00:09.620526
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:31:33 +07)" was missed by 0:00:09.965065
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:32:33 +07)" was missed by 0:00:10.297051
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:33:33 +07)" was missed by 0:00:09.564079
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:34:33 +07)" was missed by 0:00:10.330075
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:35:33 +07)" was missed by 0:00:09.587085
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:36:33 +07)" was missed by 0:00:10.159118
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-13 14:37:03 +07)" was missed by 0:00:03.743935
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 09:45:03 +07)" was missed by 0:00:12.684804
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:31:33 +07)" was missed by 0:00:02.595847
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:32:33 +07)" was missed by 0:00:07.901576
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:33:33 +07)" was missed by 0:00:08.466713
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:34:33 +07)" was missed by 0:00:09.102810
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:35:33 +07)" was missed by 0:00:08.562586
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:36:33 +07)" was missed by 0:00:09.360794
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:37:33 +07)" was missed by 0:00:09.497665
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:38:33 +07)" was missed by 0:00:09.163403
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:39:33 +07)" was missed by 0:00:08.360619
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:40:33 +07)" was missed by 0:00:08.402591
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:41:33 +07)" was missed by 0:00:10.448482
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:42:33 +07)" was missed by 0:00:09.374099
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:43:33 +07)" was missed by 0:00:09.063654
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:44:33 +07)" was missed by 0:00:09.331206
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:45:33 +07)" was missed by 0:00:08.329333
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:46:33 +07)" was missed by 0:00:09.022888
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:47:33 +07)" was missed by 0:00:09.487903
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:48:33 +07)" was missed by 0:00:07.666860
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:49:33 +07)" was missed by 0:00:08.448988
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:50:33 +07)" was missed by 0:00:09.081659
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:51:33 +07)" was missed by 0:00:08.879394
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:52:33 +07)" was missed by 0:00:09.372081
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:53:33 +07)" was missed by 0:00:09.431456
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:54:33 +07)" was missed by 0:00:10.201387
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:55:33 +07)" was missed by 0:00:08.352282
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:56:33 +07)" was missed by 0:00:08.145456
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:57:33 +07)" was missed by 0:00:08.877363
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:58:33 +07)" was missed by 0:00:09.480401
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 12:59:33 +07)" was missed by 0:00:08.542784
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:00:33 +07)" was missed by 0:00:09.370090
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:01:33 +07)" was missed by 0:00:09.211767
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:02:33 +07)" was missed by 0:00:09.219696
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:03:33 +07)" was missed by 0:00:08.575582
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:04:33 +07)" was missed by 0:00:08.726472
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:05:33 +07)" was missed by 0:00:09.417278
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:06:33 +07)" was missed by 0:00:09.325315
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:07:33 +07)" was missed by 0:00:08.528683
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:08:33 +07)" was missed by 0:00:09.383543
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:09:33 +07)" was missed by 0:00:10.337694
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:10:33 +07)" was missed by 0:00:08.481373
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:11:33 +07)" was missed by 0:00:08.790707
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:12:33 +07)" was missed by 0:00:08.483988
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:13:33 +07)" was missed by 0:00:09.661376
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:14:33 +07)" was missed by 0:00:09.201284
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:15:33 +07)" was missed by 0:00:09.258550
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:16:33 +07)" was missed by 0:00:09.685729
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:17:33 +07)" was missed by 0:00:09.322105
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:18:33 +07)" was missed by 0:00:08.545979
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:19:33 +07)" was missed by 0:00:08.565934
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:20:33 +07)" was missed by 0:00:03.898874
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 13:35:33 +07)" was missed by 0:00:04.497741
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-14 17:16:20 +07)" was missed by 0:00:15.927950
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-15 06:27:50 +07)" was missed by 0:00:21.594583
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-15 12:18:50 +07)" was missed by 0:00:18.465591
+Run time of job "NotificationHandler.__invalidate_rooms_for_clients (trigger: interval[0:00:30], next run at: 2018-09-15 12:30:20 +07)" was missed by 0:00:19.385714

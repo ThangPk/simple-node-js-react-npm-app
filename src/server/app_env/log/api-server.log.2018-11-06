@@ -1,0 +1,70 @@
+2018-11-05 10:08:40-ERROR [base.py:process_exception():5]: (1062, "Duplicate entry 'u2' for key 'users_user_name_unique'") (SQL: INSERT INTO `users` (`id`, `user_name`, `password`, `first_name`, `last_name`, `need_to_change_pwd`, `is_admin`, `email`, `phone_number`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) (['2b17a6aa-aeb9-486b-9537-2737f8eb9fdf', 'u2', b'$2b$12$eWR0fL8cWrfDUjKdaVNiceBYHE6c3CiOy.MwK4NQqWqNlEAGjC946', 'U', '2', True, True, 'u2@gmail.com', '12345']))
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connections/connection.py", line 31, in _run
+    result = wrapped(self, query, bindings, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connections/connection.py", line 251, in statement
+    return self._new_cursor().execute(query, bindings)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 516, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 727, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 1066, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 683, in _read_packet
+    packet.check_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'u2' for key 'users_user_name_unique'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 50, in create_user
+    request_json.get('is_admin'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 69, in create_user
+    'phone_number': phone_number
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/builder.py", line 1160, in call
+    result = attribute(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/query/builder.py", line 1392, in insert
+    return self._connection.insert(sql, bindings)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connections/connection.py", line 236, in insert
+    return self.statement(query, bindings)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connections/connection.py", line 34, in _run
+    e, query, bindings, wrapped
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connections/connection.py", line 341, in _try_again_if_caused_by_lost_connection
+    raise QueryException(query, bindings, e)
+orator.exceptions.query.QueryException: (1062, "Duplicate entry 'u2' for key 'users_user_name_unique'") (SQL: INSERT INTO `users` (`id`, `user_name`, `password`, `first_name`, `last_name`, `need_to_change_pwd`, `is_admin`, `email`, `phone_number`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s) (['2b17a6aa-aeb9-486b-9537-2737f8eb9fdf', 'u2', b'$2b$12$eWR0fL8cWrfDUjKdaVNiceBYHE6c3CiOy.MwK4NQqWqNlEAGjC946', 'U', '2', True, True, 'u2@gmail.com', '12345']))
+2018-11-06 09:58:00-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 22, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-11-06 10:09:56-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 22, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-11-06 10:33:20-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 22, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-11-06 11:00:14-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 22, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED

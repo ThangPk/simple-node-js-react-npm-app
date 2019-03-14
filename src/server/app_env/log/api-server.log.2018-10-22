@@ -1,0 +1,37 @@
+2018-10-22 10:21:55-ERROR [base.py:process_exception():5]: __update_camera() missing 1 required positional argument: 'human_detection_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 28, in import_cameras
+    return camera_manager.import_cameras(file)
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 61, in import_cameras
+    raise ex
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 51, in import_cameras
+    row['human_detection_enabled'])
+TypeError: __update_camera() missing 1 required positional argument: 'human_detection_enabled'
+2018-10-22 10:23:56-ERROR [base.py:process_exception():5]: __update_camera() missing 1 required positional argument: 'human_detection_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 28, in import_cameras
+    return camera_manager.import_cameras(file)
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 61, in import_cameras
+    raise ex
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 51, in import_cameras
+    row['human_detection_enabled'])
+TypeError: __update_camera() missing 1 required positional argument: 'human_detection_enabled'
+2018-10-22 10:26:20-ERROR [base.py:process_exception():5]: update_camera() takes 14 positional arguments but 15 were given
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 70, in update
+    request_json.get('human_detection_enabled'))
+TypeError: update_camera() takes 14 positional arguments but 15 were given
+2018-10-22 11:08:30-ERROR [base.py:process_exception():5]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 71, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 111, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS
+2018-10-22 11:08:35-ERROR [base.py:process_exception():5]: EXISTED_IP_ADDRESS
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 71, in update
+    request_json.get('human_detection_enabled'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 111, in update_camera
+    raise UserException(ErrorCode.EXISTED_IP_ADDRESS)
+utils.user_exception.UserException: EXISTED_IP_ADDRESS

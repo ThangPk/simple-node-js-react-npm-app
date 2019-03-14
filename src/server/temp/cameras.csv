@@ -1,0 +1,25 @@
+name,description,ip_address,mac_address,vendor,rtsp_url,rtsp_url_sub,login_username,login_password,video_codec,enabled,recording_enabled,human_tracking_enabled,face_enabled,lic_plate_enabled,site_name
+A01-Toky,Human,10.0.0.111,b4:36:e3:01:89:01,AVTech-8001,rtsp://116.193.74.93:8001/live/video_audio/profile2,rtsp://116.193.74.93:8001/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,1,0,0,Thang
+A02-Toky,Face,10.0.0.112,b4:36:e3:01:89:02,AVTech-8002,rtsp://116.193.74.93:8002/live/video_audio/profile2,rtsp://116.193.74.93:8002/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,1,0,Dinh
+A03-Toky,License,10.0.0.113,b4:36:e3:01:89:03,AVTech-5403,rtsp://116.193.74.93:5403/live/video_audio/profile2,rtsp://116.193.74.93:5403/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,0,1,A
+A04-QTSC5 Parking,License,10.0.0.115,b4:36:e3:01:89:04,AVTech-5405,rtsp://116.193.74.93:5405/live/video_audio/profile2,rtsp://116.193.74.93:5405/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,0,1,B
+A05-1A,License,10.0.0.114,b4:36:e3:01:89:05,AVTech-8004,rtsp://116.193.74.93:8004/live/video_audio/profile2,rtsp://116.193.74.93:8004/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,0,1,C
+A06-1A,Human,10.0.0.116,b4:36:e3:01:89:06,AVTech-5406,rtsp://116.193.74.93:5406/live/video_audio/profile2,rtsp://116.193.74.93:5406/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,1,0,0,D
+A07-Datacenter,Human,10.0.0.117,b4:36:e3:01:89:07,KBVision-8007,rtsp://116.193.74.93:5407,rtsp://116.193.74.93:5407/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,1,0,0,E
+A08-Datacenter,Human,10.0.0.118,b4:36:e3:01:89:08,KBVision-8008,rtsp://116.193.74.93:5408,rtsp://116.193.74.93:5408/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,1,0,0,F
+A09-Datacenter (Reception),Face,10.0.0.119,b4:36:e3:01:89:09,KBVision-8009,rtsp://116.193.74.93:5409,rtsp://116.193.74.93:5409/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,0,1,0,G
+A10-QTSC1 (Lift),Face,10.0.0.131,b4:36:e3:01:89:10,Honeywell-5421??,rtsp://116.193.74.93:5421,rtsp://116.193.74.93:5421/cam/realmonitor?channel=1&subtype=1,admin,Hmt158@Qtsc,H264,0,1,0,1,0,H
+A11-QTSC1 (Lift),Face,10.0.0.120,b4:36:e3:01:89:11,AVTech-5410,rtsp://116.193.74.93:5410/live/video_audio/profile2,rtsp://116.193.74.93:5410/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,1,0,I
+A12-QTSC1,Human,10.0.0.122,b4:36:e3:01:89:12,AVTech-5412,rtsp://116.193.74.93:5412/live/video_audio/profile2,rtsp://116.193.74.93:5412/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,1,0,0,T
+A13-QTSC1,Human,10.0.0.123,b4:36:e3:01:89:13,AVTech-5413,rtsp://116.193.74.93:5413/live/video_audio/profile2,rtsp://116.193.74.93:5413/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,1,0,0,T
+A14-QTSC1 (Lift),Face,10.0.0.124,b4:36:e3:01:89:14,AVTech-5414,rtsp://116.193.74.93:5414/live/video_audio/profile2,rtsp://116.193.74.93:5414/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,1,0,QTSC
+A15-QTSC1 (Parking),License,10.0.0.125,b4:36:e3:01:89:15,AVTech-5415,rtsp://116.193.74.93:5415/live/video_audio/profile2,rtsp://116.193.74.93:5415/live/video_audio/profile3,admin,Hmt158Qtsc,H264,1,1,0,0,1,QTSC
+A17-QTSC9 (Lift),Face + Human,10.0.0.127,b4:36:e3:01:89:17,KBVision-8017,rtsp://116.193.74.93:5417,rtsp://116.193.74.93:5417/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,1,1,0,QTSC
+A18-QTSC9 (Parking),License,10.0.0.128,b4:36:e3:01:89:18,KBVision-8018,rtsp://116.193.74.93:5418,rtsp://116.193.74.93:5418/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,0,0,1,QTSC
+A19-QTSC9 (Parking),License,10.0.0.129,b4:36:e3:01:89:19,KBVision-8019,rtsp://116.193.74.93:5419,rtsp://116.193.74.93:5419/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,0,0,1,QTSC
+A20-QTSC3 (Passage-way),Human,10.0.0.130,b4:36:e3:01:89:20,Honeywell-8020??,rtsp://116.193.74.93:5420,rtsp://116.193.74.93:5420/cam/realmonitor?channel=1&subtype=1,admin,Hmt158Qtsc,H264,0,1,1,0,0,QTSC
+A21-QTSC3 (Main),Face,10.0.0.121,b4:36:e3:01:89:21,KBVision-8011,rtsp://116.193.74.93:5411,rtsp://116.193.74.93:5411/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,0,1,0,QTSC
+A22-QTSC3 (Passage-way),Human,10.0.0.132,b4:36:e3:01:89:22,Honeywell-8022??,rtsp://116.193.74.93:5422,rtsp://116.193.74.93:5422/cam/realmonitor?channel=1&subtype=1,admin,Hmt158Qtsc,H264,0,1,1,0,0,QTSC
+A24-QTSC5 (Reception),Face,192.168.1.253,b4:36:e3:01:89:24,KBVision-8253,rtsp://210.2.98.82:5253,rtsp://210.2.98.82:5253/cam/realmonitor?channel=1&subtype=1,admin,Hmt158Qtsc,H264,1,1,0,1,0,TTTTT
+A25-QTSC5 (Back),Face,192.168.1.254,b4:36:e3:01:89:25,KBVision-8254,rtsp://210.2.98.82:5254,rtsp://210.2.98.82:5254/cam/realmonitor?channel=1&subtype=1,admin,Hmt158Qtsc,H264,1,1,0,1,0,Test
+H01-Homa-Receptions (Face),Face,192.168.1.251,b4:36:e3:01:89:26,KBVision-8257,rtsp://14.161.48.60:1027,Rtsp://14.161.48.60:1027/cam/realmonitor?channel=1&subtype=1,admin,abc12345,H264,1,1,0,1,0,Test

@@ -1,0 +1,257 @@
+2018-10-30 13:23:05-ERROR [base.py:process_exception():5]: CATEGORY_NOT_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/categorys.py", line 65, in assign_cameras_to_category
+    request_json.get('camera_ids'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/category_manager.py", line 89, in assign_cameras_to_catogory
+    raise UserException(ErrorCode.CATEGORY_NOT_EXISTED)
+utils.user_exception.UserException: CATEGORY_NOT_EXISTED
+2018-10-31 09:57:07-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 22, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-10-31 10:41:11-ERROR [base.py:process_exception():5]: (2003, "Can't connect to MySQL server on '192.168.1.14' ([Errno 61] Connection refused)")
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 57, in __getattr__
+    return type.__getattribute__(cls, item)
+AttributeError: type object 'User' has no attribute 'where'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 57, in __getattr__
+    return type.__getattribute__(cls, item)
+AttributeError: type object 'Model' has no attribute 'boot_model'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 582, in connect
+    **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 724, in create_connection
+    raise err
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 713, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 20, in login
+    user = User.where('user_name', user_name).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 59, in __getattr__
+    query = cls.query()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 1815, in query
+    return cls().new_query()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 122, in __init__
+    self._boot_if_not_booted()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 149, in _boot_if_not_booted
+    klass._boot()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 167, in _boot
+    cls._boot_mixins()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 185, in _boot_mixins
+    if hasattr(mixin, method):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 59, in __getattr__
+    query = cls.query()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 1815, in query
+    return cls().new_query()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 1782, in new_query
+    builder = self.new_query_without_scopes()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 1808, in new_query_without_scopes
+    self._new_base_query_builder()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 1836, in _new_base_query_builder
+    conn = self.get_connection()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2767, in get_connection
+    return self.resolve_connection(self.__connection__)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2801, in resolve_connection
+    return cls.__resolver.connection(connection)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/database_manager.py", line 43, in connection
+    connection = self._make_connection(name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/database_manager.py", line 132, in _make_connection
+    return self._factory.make(config, name)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connectors/connection_factory.py", line 36, in make
+    return self._create_single_connection(config)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connectors/connection_factory.py", line 39, in _create_single_connection
+    conn = self.create_connector(config).connect(config)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connectors/connector.py", line 39, in connect
+    self._connection = self._do_connect(config)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/connectors/mysql_connector.py", line 101, in _do_connect
+    return self.get_api().connect(**self.get_config(config))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pymysql/connections.py", line 629, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.1.14' ([Errno 61] Connection refused)")
+2018-10-31 11:14:18-ERROR [base.py:process_exception():5]: CATEGORY_NOT_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/categorys.py", line 65, in assign_cameras_to_category
+    request_json.get('camera_ids'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/category_manager.py", line 89, in assign_cameras_to_catogory
+    raise UserException(ErrorCode.CATEGORY_NOT_EXISTED)
+utils.user_exception.UserException: CATEGORY_NOT_EXISTED
+2018-10-31 15:45:12-ERROR [base.py:process_exception():5]: CATEGORY_NOT_EXISTED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/categorys.py", line 65, in assign_cameras_to_category
+    request_json.get('camera_ids'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/category_manager.py", line 89, in assign_cameras_to_catogory
+    raise UserException(ErrorCode.CATEGORY_NOT_EXISTED)
+utils.user_exception.UserException: CATEGORY_NOT_EXISTED
+2018-11-01 10:04:51-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-11-01 10:04:55-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-11-01 10:22:45-ERROR [base.py:process_exception():5]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 100, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-11-01 10:22:52-ERROR [base.py:process_exception():5]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 100, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-11-01 10:22:57-ERROR [base.py:process_exception():5]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 100, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-11-01 10:23:00-ERROR [base.py:process_exception():5]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 100, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-11-01 10:23:37-ERROR [base.py:process_exception():5]: PASSWORD_NO_DIFFERENCE
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 96, in change_password
+    raise UserException(ErrorCode.PASSWORD_NO_DIFFERENCE)
+utils.user_exception.UserException: PASSWORD_NO_DIFFERENCE
+2018-11-01 10:27:08-ERROR [base.py:process_exception():5]: OLD_PASSWORD_INCORRECT
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 83, in change_password
+    request_json.get('new_password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 100, in change_password
+    raise UserException(ErrorCode.OLD_PASSWORD_INCORRECT)
+utils.user_exception.UserException: OLD_PASSWORD_INCORRECT
+2018-11-01 10:28:40-ERROR [base.py:process_exception():5]: LOGIN_FAILED
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/users.py", line 16, in login
+    request_json.get('password'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/user_manager.py", line 25, in login
+    raise UserException(ErrorCode.LOGIN_FAILED)
+utils.user_exception.UserException: LOGIN_FAILED
+2018-11-01 16:35:54-ERROR [base.py:process_exception():5]: 'Camera' object has no attribute 'human_tracking_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 115, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 226, in search_cameras
+    return JsonResult(True, Utils.json_collection(cameras)).json_paginate(cameras)
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 39, in json_collection
+    json.append(obj.json())
+  File "/Users/thangdinh/Projects/VMS/src/server/models/camera.py", line 73, in json
+    'human_tracking_enabled': Utils.to_boolean(self.human_tracking_enabled),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2838, in __getattr__
+    return self.get_attribute(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2301, in get_attribute
+    relation = original or super(Model, self).__getattribute__(key)
+AttributeError: 'Camera' object has no attribute 'human_tracking_enabled'
+2018-11-01 16:37:04-ERROR [base.py:process_exception():5]: 'Camera' object has no attribute 'human_tracking_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 115, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 226, in search_cameras
+    return JsonResult(True, Utils.json_collection(cameras)).json_paginate(cameras)
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 39, in json_collection
+    json.append(obj.json())
+  File "/Users/thangdinh/Projects/VMS/src/server/models/camera.py", line 73, in json
+    'human_tracking_enabled': Utils.to_boolean(self.human_tracking_enabled),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2838, in __getattr__
+    return self.get_attribute(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2301, in get_attribute
+    relation = original or super(Model, self).__getattribute__(key)
+AttributeError: 'Camera' object has no attribute 'human_tracking_enabled'
+2018-11-01 16:37:10-ERROR [base.py:process_exception():5]: 'Camera' object has no attribute 'human_tracking_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 115, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 226, in search_cameras
+    return JsonResult(True, Utils.json_collection(cameras)).json_paginate(cameras)
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 39, in json_collection
+    json.append(obj.json())
+  File "/Users/thangdinh/Projects/VMS/src/server/models/camera.py", line 73, in json
+    'human_tracking_enabled': Utils.to_boolean(self.human_tracking_enabled),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2838, in __getattr__
+    return self.get_attribute(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2301, in get_attribute
+    relation = original or super(Model, self).__getattribute__(key)
+AttributeError: 'Camera' object has no attribute 'human_tracking_enabled'
+2018-11-01 16:39:47-ERROR [base.py:process_exception():5]: 'Camera' object has no attribute 'human_tracking_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 115, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 226, in search_cameras
+    return JsonResult(True, Utils.json_collection(cameras)).json_paginate(cameras)
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 39, in json_collection
+    json.append(obj.json())
+  File "/Users/thangdinh/Projects/VMS/src/server/models/camera.py", line 73, in json
+    'human_tracking_enabled': Utils.to_boolean(self.human_tracking_enabled),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2838, in __getattr__
+    return self.get_attribute(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2301, in get_attribute
+    relation = original or super(Model, self).__getattribute__(key)
+AttributeError: 'Camera' object has no attribute 'human_tracking_enabled'
+2018-11-01 16:40:37-ERROR [base.py:process_exception():5]: 'Camera' object has no attribute 'human_tracking_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 115, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 226, in search_cameras
+    return JsonResult(True, Utils.json_collection(cameras)).json_paginate(cameras)
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 39, in json_collection
+    json.append(obj.json())
+  File "/Users/thangdinh/Projects/VMS/src/server/models/camera.py", line 73, in json
+    'human_tracking_enabled': Utils.to_boolean(self.human_tracking_enabled),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2838, in __getattr__
+    return self.get_attribute(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2301, in get_attribute
+    relation = original or super(Model, self).__getattribute__(key)
+AttributeError: 'Camera' object has no attribute 'human_tracking_enabled'
+2018-11-01 16:42:01-ERROR [base.py:process_exception():5]: 'Camera' object has no attribute 'human_tracking_enabled'
+Traceback (most recent call last):
+  File "/Users/thangdinh/Projects/VMS/src/server/api/v1/cameras.py", line 115, in search
+    request_json.get('page_size'))
+  File "/Users/thangdinh/Projects/VMS/src/server/bus/camera_manager.py", line 226, in search_cameras
+    return JsonResult(True, Utils.json_collection(cameras)).json_paginate(cameras)
+  File "/Users/thangdinh/Projects/VMS/src/server/utils/utils.py", line 39, in json_collection
+    json.append(obj.json())
+  File "/Users/thangdinh/Projects/VMS/src/server/models/camera.py", line 73, in json
+    'human_tracking_enabled': Utils.to_boolean(self.human_tracking_enabled),
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2838, in __getattr__
+    return self.get_attribute(item)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/orator/orm/model.py", line 2301, in get_attribute
+    relation = original or super(Model, self).__getattribute__(key)
+AttributeError: 'Camera' object has no attribute 'human_tracking_enabled'

@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                sh './src/tools/api-dev-install.sh'
             }
         }
         stage('Test') {

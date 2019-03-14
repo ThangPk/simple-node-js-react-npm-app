@@ -10,10 +10,13 @@ pipeline {
     }
     stages {
         stage('Build') { 
+          agent {
             docker { image 'python:3.5.1' }
-            steps {                           
-                sh './src/tools/api-dev-install.sh' 
-            }
+          }       
+               
+          steps {                           
+              sh './src/tools/api-dev-install.sh' 
+          }
         }        
     }
 }

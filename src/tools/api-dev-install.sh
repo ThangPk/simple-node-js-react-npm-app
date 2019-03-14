@@ -1,7 +1,7 @@
 
 
 echo '>>>>> Installing the requirements for servers..........'
-sudo pip3 install -r /src/server/requirements.txt
+sudo -S pip3 install -r /src/server/requirements.txt
 
 echo '>>>>> Compiling the python server sources............'
 cd /src/tools
@@ -27,5 +27,5 @@ echo '>>>>> Coping license files..........'
 cp -a /backup/server/license/. /src/tools/dist/api-server/
 
 echo '>>>>> Restarting servers..........'
-sudo systemctl restart vms-api-dev-server
+sudo -S systemctl restart vms-api-dev-server
 echo '>>>>> Done!'

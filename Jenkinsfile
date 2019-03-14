@@ -10,6 +10,7 @@ pipeline {
     }
     stages {
         stage('Build') { 
+            docker { image 'python:3.5.1' }
             steps {                           
                 sh './src/tools/api-dev-install.sh' 
             }

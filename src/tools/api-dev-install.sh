@@ -1,6 +1,6 @@
 
 echo '>>>>> Installing the requirements for servers..........'
-sudo pip3 install -r ./src/server/requirements.txt
+pip install -r ./src/server/requirements.txt
 
 echo '>>>>> Compiling the python server sources............'
 cd ./src/tools &&

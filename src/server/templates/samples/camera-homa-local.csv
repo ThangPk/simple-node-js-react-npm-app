@@ -1,0 +1,10 @@
+name,description,ip_address,mac_address,vendor,rtsp_url_sub,rtsp_url,login_username,login_password,video_codec,enabled,recording_enabled,human_tracking_enabled,site_name,lic_plate_enabled,face_enabled
+cam240,cam240 hm,192.168.1.240,b4:36:e3:01:89:42,Homa,rtsp://192.168.1.240:1026/cam/realmonitor?channel=1&subtype=1,rtsp://192.168.1.240:1026,admin,abc12345,H264,1,1,0,QTSC,0,0
+cam241,cam241 hm,192.168.1.241,b4:36:e3:01:89:43,Homa,rtsp://192.168.1.241:1025/cam/realmonitor?channel=1&subtype=1,rtsp://192.168.1.241:1025,admin,abc12345,H264,1,1,0,QTSC,0,0
+cam242,cam242 hm,192.168.1.242,b4:36:e3:01:89:44,Homa,rtsp://192.168.1.242:1024/cam/realmonitor?channel=1&subtype=1,rtsp://192.168.1.242:1024,admin,abc12345,H264,1,1,0,QTSC,0,0
+cam243,cam243 hm,192.168.1.243,b4:36:e3:01:89:45,Homa,rtsp://192.168.1.243:5546/cam/realmonitor?channel=1&subtype=1,rtsp://192.168.1.243:5546,admin,abc12345,H264,1,1,0,QTSC,0,0
+cam244,cam244 hm,192.168.1.244,b4:36:e3:01:89:46,Homa,rtsp://192.168.1.244:5545/cam/realmonitor?channel=1&subtype=1,rtsp://192.168.1.244:5545,admin,abc12345,H264,1,1,0,QTSC,0,0
+cam246,cam246 hm,192.168.1.246,b4:36:e3:01:89:48,Homa,rtsp://192.168.1.246:5544/videoSub,rtsp://192.168.1.246:5544/videoMain,foscam,foscam1,H264,1,1,0,QTSC,0,0
+cam247,cam247 hm,192.168.1.247,b4:36:e3:01:89:49,Homa,rtsp://192.168.1.247:5543/videoSub,rtsp://192.168.1.247:5543/videoMain,foscam,foscam1,H264,1,1,0,QTSC,0,0
+cam248,cam248 hm,192.168.1.248,b4:36:e3:01:89:50,Homa,rtsp://192.168.1.248:5542/videoSub,rtsp://192.168.1.248:5542/videoMain,foscam,foscam1,H264,1,1,0,QTSC,0,0
+cam249,cam249 hm,192.168.1.249,b4:36:e3:01:89:51,Homa,rtsp://192.168.1.249:554/videoSub,rtsp://192.168.1.249:554/videoMain,foscam,foscam1,H264,1,1,0,QTSC,0,0

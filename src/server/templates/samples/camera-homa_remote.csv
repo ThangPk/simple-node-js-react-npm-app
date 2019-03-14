@@ -1,0 +1,9 @@
+name,description,ip_address,mac_address,vendor,rtsp_url,login_username,login_password,video_codec,enabled,recording_enabled,human_tracking_enabled,rtsp_url_sub,face_enabled,lic_plate_enabled,site_name,site_name
+cam240,Homa,192.168.1.240,b4:36:e3:01:89:40,HIK,rtsp://14.161.48.60:1026,admin,abc12345,H264,1,0,0,Rtsp://14.161.48.60:1026/streaming/channels/102,0,0,0,QTSC
+cam241,Homa,192.168.1.241,b4:36:e3:01:89:41,HIK,rtsp://14.161.48.60:1025,admin,abc12345,H264,1,0,0,Rtsp://14.161.48.60:1025/streaming/channels/102,0,0,0,QTSC
+cam242,Homa,192.168.1.242,b4:36:e3:01:89:42,HIK,rtsp://14.161.48.60:1024,admin,abc12345,H264,1,0,0,Rtsp://14.161.48.60:1024/streaming/channels/102,0,0,0,QTSC
+cam243,Homa,192.168.1.243,b4:36:e3:01:89:43,HIK,rtsp://14.161.48.60:5546,admin,abc12345,H264,1,0,0,Rtsp://14.161.48.60:5546/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif,0,0,0,QTSC
+cam244,Homa,192.168.1.244,b4:36:e3:01:89:44,HIK,rtsp://14.161.48.60:5545,admin,abc12345,H264,1,0,0,Rtsp://14.161.48.60:5545/cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif,0,0,0,QTSC
+cam246,Homa,192.168.1.246,b4:36:e3:01:89:46,Foscam,rtsp://14.161.48.60:5544/videoMain,foscam,foscam1,H264,1,0,0,rtsp://14.161.48.60:5544/videoSub,0,0,0,QTSC
+cam247,Homa,192.168.1.247,b4:36:e3:01:89:47,Foscam,Rtsp://14.161.48.60:5542/videoMain,foscam,foscam1,H264,1,0,0,Rtsp://14.161.48.60:5542/videoSub,0,0,0,QTSC
+cam248,Homa,192.168.1.248,b4:36:e3:01:89:48,Foscam,Rtsp://14.161.48.60:5543/videoMain,foscam,foscam1,H264,1,0,0,Rtsp://14.161.48.60:5543/videoSub,0,0,0,QTSC

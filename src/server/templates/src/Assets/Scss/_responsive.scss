@@ -1,0 +1,83 @@
+@media only screen and (max-width: 768px) {
+  .login-page {
+    .login-content {
+      width: 80%;
+    }
+  }
+
+  .main-screen {
+    .main-menu {
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+      .menu-button {
+        height: 90px;
+        width: 140px;
+        margin-right: 10px;
+        margin-top: 0px;
+        i {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  .vms-body .body {
+    .component {
+      height: auto;
+
+      .camera-import {
+        display: none;
+      }
+
+      .action-top {
+        .search-box {
+          width: 100%;
+        }
+
+        .streaming-status-select,
+        .human-tracking-status-select,
+        .connection-status-select,
+        .enabled-select {
+          float: left;
+          margin-right: 1px;
+        }
+      }
+    }
+
+    .three-cols-form {
+      flex-direction: column;
+
+      .col {
+        height: 200px;
+      }
+
+      .second-col-auto {
+        margin: 0px;
+      }
+
+      .second-col {
+        width: 100%;
+        height: auto;
+
+        .button-container {
+          display: flex;
+
+          .btn {
+            margin: 2px;
+
+            .assign::before {
+              font-family: FontAwesome;
+              content: "\f062";
+            }
+
+            .remove::before {
+              font-family: FontAwesome;
+              content: "\f063";
+            }
+          }
+        }
+      }
+    }
+  }
+}

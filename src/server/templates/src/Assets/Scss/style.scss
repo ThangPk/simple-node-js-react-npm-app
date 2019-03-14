@@ -1,0 +1,23 @@
+
+// Import styles
+@import "@coreui/coreui/scss/coreui.scss";
+// Temp fix for reactstrap
+@import '@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+// ie fixes
+@import "ie-fix";
+
+// If you want to add something do it here
+@import "custom";
+
+// loading
+@import "loading";
+
+// split pane
+@import "split_pane";
+
+// responsive
+@import "responsive";
+
+// react image gallery
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";

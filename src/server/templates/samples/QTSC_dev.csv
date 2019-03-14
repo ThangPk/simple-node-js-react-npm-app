@@ -1,0 +1,10 @@
+name,description,ip_address,mac_address,vendor,rtsp_url,rtsp_url_sub,login_username,login_password,video_codec,enabled,recording_enabled,human_tracking_enabled,face_enabled,lic_plate_enabled,site_name
+A02-Toky,Face,116.193.74.93,b4:36:e3:01:89:02,AVTech-8002,Rtsp://116.193.74.93:8002/live/video_audio/profile2,Rtsp://116.193.74.93:8002/live/video_audio/profile3,uvms,hma12345,H264,1,1,0,1,0,QTSC
+A05-1A,License,116.193.74.93,b4:36:e3:01:89:05,AVTech-8004,Rtsp://116.193.74.93:8004/live/video_audio/profile2,Rtsp://116.193.74.93:8004/live/video_audio/profile3,uvms,hma12345,H264,1,1,0,0,1,QTSC
+A14-QTSC1 (Lift),Face,116.193.74.93,b4:36:e3:01:89:14,AVTech-5414,Rtsp://116.193.74.93:5414/live/video_audio/profile2,Rtsp://116.193.74.93:5414/live/video_audio/profile3,uvms,hma12345,H264,1,1,0,1,0,QTSC
+A17-QTSC9 (Lift),Face + Human,116.193.74.93,b4:36:e3:01:89:17,KBVision-8017,Rtsp://116.193.74.93:5417,rtsp://116.193.74.93:5417/cam/realmonitor?channel=1&subtype=1,uvms,hma12345,H264,1,1,1,1,0,QTSC
+A18-QTSC9 (Parking),License,116.193.74.93,b4:36:e3:01:89:18,KBVision-8018,Rtsp://116.193.74.93:5418,Rtsp://116.193.74.93:5418/cam/realmonitor?channel=1&subtype=1,uvms,hma12345,H264,1,1,0,0,1,QTSC
+A19-QTSC9 (Parking),License,116.193.74.93,b4:36:e3:01:89:19,KBVision-8019,Rtsp://116.193.74.93:5419,Rtsp://116.193.74.93:5419/cam/realmonitor?channel=1&subtype=1,uvms,hma12345,H264,1,1,0,0,1,QTSC
+A21-QTSC3 (Main),Face,116.193.74.93,b4:36:e3:01:89:21,KBVision-8011,rtsp://116.193.74.93:5411,rtsp://116.193.74.93:5411/cam/realmonitor?channel=1&subtype=1,uvms,hma12345,H264,1,1,0,1,0,QTSC
+A24-QTSC5 (Reception),Face,210.2.98.82,b4:36:e3:01:89:24,KBVision-8253,rtsp://210.2.98.82:5253,rtsp://210.2.98.82:5253/cam/realmonitor?channel=1&subtype=1,uvms,hma12345,H264,1,1,0,1,0,QTSC
+A25-QTSC5 (Back),Face,210.2.98.82,b4:36:e3:01:89:25,KBVision-8254,rtsp://210.2.98.82:5254,rtsp://210.2.98.82:5254/cam/realmonitor?channel=1&subtype=1,uvms,hma12345,H264,1,1,0,1,0,QTSC

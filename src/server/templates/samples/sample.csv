@@ -1,0 +1,2 @@
+name,description,ip_address,mac_address,vendor,rtsp_url,login_username,login_password,video_codec,enabled,recording_enabled,human_tracking_enabled,rtsp_url_sub,site_name
+A01-Toky_1,TOKY1,10.0.0.1111,b4:36:e3:01:89:200,AVTech,Rtsp://116.193.74.93:8001/live/video_audio/profile2,admin,Hmt158@Qtsc,H264,1,0,0,Rtsp://116.193.74.93:8001/live/video_audio/profile3,QTSC

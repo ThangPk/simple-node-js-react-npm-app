@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {                
           steps {   
-              sh 'cd src/tools && ls && ./api-dev-install.sh'                               
+              sh '.src/tools/api-dev-install.sh'                               
           }
         }        
     }

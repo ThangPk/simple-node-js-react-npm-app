@@ -7,12 +7,12 @@ cd ./src/tools &&
 
 echo ">>>>> Compile common package"
 touch .module_common
-python3 build.py build_ext
+python build.py build_ext
 rm .module_common
 
 echo ">>>>> Compile API server package"
 touch .module_api_server
-python3 build.py build_ext
+python build.py build_ext
 rm .module_api_server
 
 echo '>>>>> Change permission to build folders..........'

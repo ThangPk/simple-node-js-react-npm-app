@@ -10,25 +10,9 @@ pipeline {
     }
     stages {
         stage('Build') { 
-            steps {
-                dir('./jenkins/scripts') {
-                  sh "pwd"
-                  sh 'npm install' 
-                }
-                sh 'npm install' 
+            steps {           
+                sh 'cd ./src/server/templates && npm install && npm start' 
             }
-        }
-        stage('Test') { 
-          steps {
-              sh './jenkins/scripts/test.sh' 
-          }
-        }
-        stage('Deliver') { 
-          steps {
-              sh './jenkins/scripts/deliver.sh' 
-              input message: 'Finished using the web site? (Click "Proceed" to continue)' 
-              sh './jenkins/scripts/kill.sh' 
-          }
-        }
+        }        
     }
 }

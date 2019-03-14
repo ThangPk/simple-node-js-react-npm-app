@@ -12,6 +12,7 @@ pipeline {
         stage('Build') { 
             steps {           
                 sh 'cd ./src/server/templates && npm install && npm start' 
+                sh './src/tools/api-dev-install.sh' 
             }
         }        
     }

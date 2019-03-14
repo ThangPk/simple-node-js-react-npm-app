@@ -10,20 +10,6 @@ GIT_PATH="$(dirname "$(dirname "$DIR")")"
 ROOT_PATH="$(dirname "$GIT_PATH")"
 echo ">>>>> Working directory is at $ROOT_PATH"
 
-echo '>>>>> Pulling the latest code from git..........'
-cd $GIT_PATH
-git reset --hard
-git pull origin master
-
-echo '>>>>> Copying the backup configurations..........'
-cp $ROOT_PATH/backup/common/orator.yml $GIT_PATH/src/common/db/orator.yml
-cp $ROOT_PATH/backup/server/app_config.py $GIT_PATH/src/server/app_config.py
-
-echo '>>>>> Compiling the latest code of Administration website..........'
-cd $GIT_PATH/src/server/templates/src
-npm install
-npm run build
-
 echo '>>>>> Installing the requirements for servers..........'
 sudo pip3 install -r $GIT_PATH/src/server/requirements.txt
 

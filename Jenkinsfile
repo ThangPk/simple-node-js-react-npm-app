@@ -7,14 +7,12 @@ pipeline {
         stage('Build') {       
           agent {
               docker {
-                  image 'python:2-alpine' 
+                  image 'python:3.7-alpine' 
               }
           }         
           steps {   
-              sh 'pip install -r ./src/server/requirements.txt'   
-              sh 'touch .module_common'
-              sh 'python ./src/tools/build.py ./src/tools/build_ext'
-              sh 'rm .module_common'              
+              sh 'pip3 install -r ./src/server/requirements.txt'                 
+              sh 'python3 ./src/tools/build.py ./src/tools/build_ext'                           
           }
         }        
     }

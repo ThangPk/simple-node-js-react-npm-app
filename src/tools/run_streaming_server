@@ -1,0 +1,111 @@
+#!/bin/bash
+source function.sh
+VMS_DIR=/home/tvcuong/homa/source/vms/src/camera-server
+export PYTHONPATH=$PYTHONPATH:$VMS_DIR
+LOG_DIR=/tmp/vms/
+LOG_FILE=$LOG_DIR"vms_streaming_server.log"
+run=1
+
+[ ! -d $LOG_DIR ] && mkdir -p $LOG_DIR 
+[ ! -e $LOG_FILE ] && touch $LOG_FILE
+
+LOG=Y
+if [ $LOG = Y ] ; then
+		
+		echo " Log = ON" 
+		exec > >(tee -a $LOG_FILE )
+		exec 2>&1		
+fi
+
+linfo "********************************************************"
+linfo "************ Start HOMA VSM Streaming Server ************"
+linfo "* Starting app at  $(date) "
+linfo "*********************************************************"
+
+### CONFIG ENVIRONMEN
+
+export GST_DIR=/home/hmlib
+export CUDA_TOOLKIT_ROOT_DIR=/home/nvidia/cuda-9.0/
+ 
+export PATH=$GST_DIR/bin:$CUDA_TOOLKIT_ROOT_DIR/bin:$CUDA_TOOLKIT_ROOT_DIR/bin:$PATH
+export LD_LIBRARY_PATH=$GST_DIR/lib:$CUDA_TOOLKIT_ROOT_DIR/lib64
+export PKG_CONFIG_PATH=$GST_DIR/lib/pkgconfig:$PKG_CONFIG_PATH
+
+linfo "Checking libs..."
+linfo " Checking GSTREAMER ..."
+GST_VER="$( gst-inspect-1.0 --version )"
+linfo "$GST_VER"
+if [ -z "$GST_VER" ] ; then
+	lerror "GST not found"
+fi
+linfo "$GST_VER"
+linfo "Check H264 codec"
+
+X264ENC="$( gst-inspect-1.0 x264enc )"
+NVH264ENC="$( gst-inspect-1.0 nvh264enc )"
+H264PARSE="$( gst-inspect-1.0 h264parse )"
+AVDEC_H264="$( gst-inspect-1.0 avdec_h264 )"
+NVDEC_H264="$( gst-inspect-1.0 nvdec_h264 )"
+
+if [ -z "$X264ENC" ]; then
+	lerror "No such element or plugin x264enc "
+	run=0
+else	
+	echo -e "${Blue}x264enc yes ${NC} ${RED}\xE2\x9C\x94${NC}"
+fi
+
+if [ -z "$NVH264ENC" ]; then
+	lwarn "No such element or plugin nv264enc "
+else
+	echo -e "${Blue}nvh264enc yes ${NC} ${RED}\xE2\x9C\x94${NC}"
+fi
+#
+if [ -z "$H264PARSE" ]; then
+	lerror "No such element or plugin h264parse"
+	run=0
+else
+	echo -e "${Blue}h264parse yes ${NC} ${RED}\xE2\x9C\x94${NC}"
+fi
+if [ -z "$AVDEC_H264" ]; then
+	lerror "No such element or plugin avdec_h264"
+	run=0
+else
+	echo -e "${Blue}avdec_h264 yes ${NC} ${RED}\xE2\x9C\x94${NC}"
+fi
+
+if [ -z "$NVDEC_H264" ] || [[ "$NVDEC_H264" == *"element plugin couldn't be loaded"* ]]; then
+	lwarn "No such element or plugin nvdec_h264"
+	
+else
+	echo "$NVDEC_H264"
+	echo -e "${Blue}nvdec_h264 yes ${NC} ${RED}\xE2\x9C\x94${NC}"
+fi
+
+linfo "ENVs :"
+linfo "GST_DIR = $GST_DIR"
+linfo "CUDA_TOOLKIT_ROOT_DIR = $CUDA_TOOLKIT_ROOT_DIR"
+linfo "PATH = $PATH"
+linfo "LD_LIBRARY_PATH = $LD_LIBRARY_PATH"
+linfo "PKG_CONFIG_PATH = $PKG_CONFIG_PATH"
+
+if [ $run = 0 ];  then 
+	echo "HOMAVSM Streaming Server is existed"
+	lerror " The application failed to start "
+	if [ $LOG = Y ] ; then
+		lerror " Please read log file $LOG_FILE for more detail"
+	fi
+	exit 1
+fi
+## 
+if [ -d $VMS_DIR ] ; then
+	cd  $VMS_DIR
+	python3 app.py
+	linfo "Starting HOMA VSM Streaming Server successfully "
+	
+else
+	lerror "Directory $VMS_DIR not found"
+
+fi
+
+
+

@@ -1,0 +1,13 @@
+[Unit]
+Description=Homatechs VMS API development server
+After=redis.service network.target mysql.service
+
+[Service]
+User=homa
+WorkingDirectory=/products/vms/dev/git/src/tools/dist/api-server
+Environment="LD_LIBRARY_PATH=/opt/ffmpeg/lib:/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH PATH=/opt/ffmpeg/bin:$PATH"
+ExecStart=/usr/local/bin/gunicorn -k geventwebsocket.gunicorn.workers.GeventWebSocketWorker -w 1 -b 0.0.0.0:9000 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

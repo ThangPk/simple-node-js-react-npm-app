@@ -1,0 +1,14 @@
+[Unit]
+Description=Homatechs VMS Human Tracking development server
+After=redis.service network.target mysql.service
+
+[Service]
+User=homa
+WorkingDirectory=/products/vms/dev/git/src/tools/dist/ai-processing-server
+Environment="LD_LIBRARY_PATH=/home/hmlib/lib:/usr/local/cuda-9.0/lib64"
+ExecStart=/usr/bin/python3 app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+~                              

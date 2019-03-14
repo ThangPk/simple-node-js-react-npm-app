@@ -11,8 +11,11 @@ pipeline {
     }
     stages {
         stage('Build') {                
-          steps {                           
-              sh './src/tools/api-dev-install.sh' 
+          steps {   
+              sh 'pip install -r ./src/server/requirements.txt'   
+              sh 'touch .module_common'
+              sh 'python ./src/tools/build.py ./src/tools/build_ext'
+              sh 'rm .module_common'              
           }
         }        
     }

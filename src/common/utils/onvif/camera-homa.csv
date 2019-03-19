@@ -1,0 +1,11 @@
+ip_address,onvif_port,login_username,login_password
+192.168.1.240,8085,admin,abc12345
+192.168.1.241,8084,admin,abc12345
+192.168.1.242,8083,admin,abc12345
+192.168.1.243,8082,admin,abc12345
+192.168.1.244,8081,admin,abc12345
+192.168.1.246,888,foscam,foscam1
+192.168.1.247,888,foscam,foscam1
+192.168.1.248,888,foscam,foscam1
+192.168.1.249,888,foscam,foscam1
+192.168.1.109,8888,admin,admin
